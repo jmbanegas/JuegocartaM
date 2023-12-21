@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego de Cartas</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; text-align: center; margin: 50px;">
+
+    <div id="game-info">
+        <h1>JUEGO CARTA MAYOR</h1>
+        <button onclick="iniciarJuego()" style="padding: 10px; margin: 5px; cursor: pointer; background-color: blueviolet;">Iniciar Juego</button>
+        <p id="resultado"></p>
+    </div>
+
+    <!-- Contenedor para las cartas -->
+    <div style="display: flex; justify-content: space-around;">
+
+        <div id="jugador1" style="background-image: url(https://img.freepik.com/vector-gratis/as-espadas-naipe-aislado_1308-78891.jpg); background-size: 236px 311px;  border: 2px solid #043843; border-radius: 10px; height: 311px; width: 236px; ">
+        </div>
+
+        <div id="jugador2" style="background-image: url(https://static.vecteezy.com/system/resources/previews/012/227/682/non_2x/playing-card-ace-of-clubs-png.png); background-size: 236px 311px;  border: 2px solid #130101; border-radius: 10px; height: 311px; width: 236px; ">
+        </div>
+
+    </div>
+
+    <script src="juegos.js"></script>
+</body>
+</html>
